@@ -4,6 +4,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 50px 30px;
+    background-color: #333;
+    color: #f8f8f8;
 
     h1{
         font-size: 27px;
@@ -20,11 +22,11 @@ header{
                 margin-right: 20px;
                 list-style-type: none;
                 cursor: pointer;
-                color: #333;
+                color: #e0d2d2;
                 transition: 0.3s ease-in;
 
                 &:hover{
-                    color: #3333;
+                    color: #fff;
                 }
 
                 &:last-child{
