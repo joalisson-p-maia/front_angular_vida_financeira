@@ -8,10 +8,10 @@ import { GetAllGoalsType } from '../../types/GetAllGoalsType';
   providedIn: 'root'
 })
 export class GoalsService {
-  urlCreateGoals = "http://localhost:3001/api/goals/create";
-  urlGetAllGoals = "http://localhost:3001/api/goals/get_all";
-  urlUpdateGoals = "http://localhost:3001/api/goals/update";
-  urlDeleteGoals = "http://localhost:3001/api/goals/destroy";
+  urlCreateGoals = "http://localhost:3000/api/goals/create";
+  urlGetAllGoals = "http://localhost:3000/api/goals/get_all";
+  urlUpdateGoals = "http://localhost:3000/api/goals/update";
+  urlDeleteGoals = "http://localhost:3000/api/goals/destroy";
 
   constructor(
     private http: HttpClient

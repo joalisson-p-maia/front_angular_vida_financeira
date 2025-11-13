@@ -9,11 +9,11 @@ import { GetInputAndOutputForGraphicsType } from '../../types/GetInputAndOutputF
   providedIn: 'root'
 })
 export class ItemService {
-  urlCreateItem = "http://localhost:3001/api/items/create";
-  urlGetAllItems = "http://localhost:3001/api/items/get_all";
-  urlUpdateItem = "http://localhost:3001/api/items/update";
-  urlRemoveItem = "http://localhost:3001/api/items/destroy";
-  urlGraphicInputAndOutputItem = "http://localhost:3001/api/items/graphics_by_input_and_output";
+  urlCreateItem = "http://localhost:3000/api/items/create";
+  urlGetAllItems = "http://localhost:3000/api/items/get_all";
+  urlUpdateItem = "http://localhost:3000/api/items/update";
+  urlRemoveItem = "http://localhost:3000/api/items/destroy";
+  urlGraphicInputAndOutputItem = "http://localhost:3000/api/items/graphics_by_input_and_output";
 
   constructor(
     private http: HttpClient

@@ -7,9 +7,9 @@ import { saveAs } from 'file-saver';
   providedIn: 'root'
 })
 export class ReportsService {
-  urlCreateReports: string = "http://localhost:3001/api/pdf/generate";
-  urlCsvOrExcel: string = "http://localhost:3001/api/exports_csv_excel/exports_item";
-  urlSearchData: string = "http://localhost:3001/api/items/search_data";
+  urlCreateReports: string = "http://localhost:3000/api/pdf/generate";
+  urlCsvOrExcel: string = "http://localhost:3000/api/exports_csv_excel/exports_item";
+  urlSearchData: string = "http://localhost:3000/api/items/search_data";
 
   constructor(private readonly http: HttpClient) { }
 

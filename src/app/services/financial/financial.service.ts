@@ -8,9 +8,9 @@ import { MessageStatusType } from '../../types/MessageStatusType';
   providedIn: 'root'
 })
 export class FinancialService {
-  urlCreateFinancial: string = "http://localhost:3001/api/financial/create";
-  urlGetOneFinancial: string = "http://localhost:3001/api/financial/get_one";
-  urlUpdateFinancial: string = "http://localhost:3001/api/financial/update";
+  urlCreateFinancial: string = "http://localhost:3000/api/financial/create";
+  urlGetOneFinancial: string = "http://localhost:3000/api/financial/get_one";
+  urlUpdateFinancial: string = "http://localhost:3000/api/financial/update";
 
   constructor(
     private readonly http: HttpClient

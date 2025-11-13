@@ -7,7 +7,7 @@ import { LoginType } from '../../types/LoginType';
   providedIn: 'root'
 })
 export class UserService {
-  urlLogin = "http://localhost:3001/api/users/login";
+  urlLogin = "http://localhost:3000/api/users/login";
 
   constructor(
     private http: HttpClient
