@@ -12,43 +12,4 @@ header{
         font-weight: 400;
         letter-spacing: 7%;
     }
-
-    nav{
-        ul{
-            display: flex;
-            flex-direction: row;
-            
-            li{
-                margin-right: 20px;
-                list-style-type: none;
-                cursor: pointer;
-                color: #e0d2d2;
-                transition: 0.3s ease-in;
-
-                &:hover{
-                    color: #fff;
-                }
-
-                &:last-child{
-                    margin-right: 0;
-                }
-            }
-        }
-    }
-
-    .home__open__menu__icon{
-        display: none;
-    }
-}
-
-@media (width < 980px){
-    header{
-        nav{
-            display: none;
-        }
-    
-        .home__open__menu__icon{
-            display: block;
-        }
-    }    
 }
